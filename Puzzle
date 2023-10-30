@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<title>Leila Ouaddi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url(indexstyles.css);
+</style>
+</head>
+<header>
+<h1>Leila Ouaddi <height="200" width="400"></h1>
+<body>
+  <nav>
+    <ul>
+	<li><a href="index.html">Home</a></li>
+ 	<li><a href="Me.html">About Me</a></li>
+	<li><a href="SO.html">Some of my favorites</a></li>
+	<li><a href="Puzzle.html">Puzzle Game</a></li>
+
+	
+    </ul>
+  </nav>  
     <title>Sliding Puzzle</title>
     <style>
         table {
