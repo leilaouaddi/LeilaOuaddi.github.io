@@ -21,20 +21,21 @@ header h1 {
 
 /* Navigation Bar Styles */
 nav {
-  background-color: #3d8b37; /* Olive Green */
+  background-color: #1d5e33; /* Emerald Green */
   padding: 10px;
+  text-align: center; /* Center-align the navigation bar */
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center; /* Center-align the navigation items */
+  display: inline-block; /* Display the navigation items as inline-block */
 }
 
 nav li {
-  margin-right: 20px;
+  display: inline; /* Display the list items inline */
+  margin: 0 20px; /* Add horizontal margin to space out the items */
 }
 
 nav a {
@@ -43,10 +44,10 @@ nav a {
   font-weight: bold;
   transition: color 0.3s ease; /* Smooth color transition on hover */
 }
-
 nav a:hover {
-  color: #267722; /* Slightly darker Olive Green on hover */
+  color: #0b2413; /* Slightly darker Emerald Green on hover */
 }
+
 
 /* Main Content Styles */
 .main-content {
