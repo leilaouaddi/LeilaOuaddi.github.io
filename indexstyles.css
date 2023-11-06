@@ -19,9 +19,9 @@ header h1 {
   margin: 0;
 }
 
-/* Navigation Styles */
+/* Navigation Bar Styles */
 nav {
-  background-color: #3d8b37;
+  background-color: #3d8b37; /* Olive Green */
   padding: 10px;
 }
 
@@ -30,6 +30,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center; /* Center-align the navigation items */
 }
 
 nav li {
@@ -39,6 +40,12 @@ nav li {
 nav a {
   text-decoration: none;
   color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+  color: #267722; /* Slightly darker Olive Green on hover */
 }
 
 /* Main Content Styles */
