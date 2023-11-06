@@ -7,7 +7,15 @@ body {
   color: #000000; /* Black Text*/
   text-align: center; /* Center-align text */
 }
-
+/* Reset some default styles */
+main {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* White background */
+  color: #000000; /* Black Text*/
+  text-align: center; /* Center-align text */
+}
 /* Header Styles */
 header {
   background-color: #2ECC71; /* Emerald Green background for the header */
