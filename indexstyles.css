@@ -10,10 +10,9 @@ body {
 
 /* Header Styles */
 header {
-  background-color: #1d5e33; /* Emerald Green */
-  color: #fff;
+  background-color: #2ECC71; /* Emerald Green background for the header */
+  color: #fff; /* White text color */
   padding: 20px;
-  text-align: center; /* center-align nav. bar*/
 }
 
 header h1 {
