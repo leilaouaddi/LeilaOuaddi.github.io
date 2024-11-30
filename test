@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lulu's Digital Footprint</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* Pink borders for the whole page */
+        .container {
+            border: 10px solid pink;
+            margin: 0 auto;
+            width: 90%;
+            min-height: 100vh;
+            padding-bottom: 20px;
+        }
+
+        /* Styling for the header menu */
+        header {
+            background-color: white;
+            border-bottom: 2px solid pink;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #d5006d; /* Light pink */
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #d5006d; /* Darker pink on hover */
+            color: white;
+        }
+
+        /* Main content area */
+        .content {
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 20px;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            border-top: 2px solid pink;
+            font-size: 14px;
+            color: #d5006d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#reads">Reads</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#etc">Etc.</a>
+            </nav>
+        </header>
+
+        <!-- Main Content Section -->
+        <div class="content">
+            <h1>Welcome to Lulu's Digital Footprint</h1>
+            <p>Here you can learn more about me, my interests, and the things I enjoy doing.</p>
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; @lulusdigitalfootprint | <a href="http://www.leilaouaddi.co" target="_blank">www.leilaouaddi.co</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
