@@ -11,63 +11,95 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            background-color: #fff;
+            background-color: pink; /* Pink background for the whole page */
             color: #333;
         }
 
-        /* Pink borders for the whole page */
+        /* Container that holds the entire content */
         .container {
-            border: 10px solid pink;
-            margin: 0 auto;
-            width: 90%;
+            width: 100%;
             min-height: 100vh;
-            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
-        /* Styling for the header menu */
+        /* Header section - white background with content */
         header {
             background-color: white;
-            border-bottom: 2px solid pink;
-            padding: 10px 0;
+            padding: 20px;
+            text-align: center;
         }
 
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Styling for the navigation menu */
         nav {
+            background-color: white; /* White background for the menu */
             display: flex;
             justify-content: center;
             gap: 20px;
+            padding: 15px 0;
+            margin-top: 20px;
         }
 
         nav a {
             text-decoration: none;
             font-size: 18px;
-            color: #d5006d; /* Light pink */
+            color: #d5006d; /* Light pink color for text */
             font-weight: bold;
-            padding: 10px;
+            padding: 10px 20px;
             border-radius: 5px;
             transition: background-color 0.3s ease, color 0.3s ease;
+            border: 2px solid transparent;
         }
 
         nav a:hover {
-            background-color: #d5006d; /* Darker pink on hover */
+            background-color: #d5006d; /* Dark pink background on hover */
             color: white;
+            border-color: #d5006d;
         }
 
-        /* Main content area */
+        /* Main content area behind the header */
         .content {
+            background-color: white; /* White background for the text box */
             text-align: center;
-            padding: 40px 0;
-            margin-top: 20px;
+            padding: 40px;
+            margin-top: 30px;
         }
 
-        /* Footer styling */
+        .content h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Footer section */
         footer {
+            background-color: white; /* White footer background */
             text-align: center;
-            background-color: white;
-            padding: 10px;
-            border-top: 2px solid pink;
+            padding: 20px;
             font-size: 14px;
             color: #d5006d;
+            font-weight: bold; /* Bold text in footer */
+        }
+
+        footer a {
+            color: #d5006d;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -76,14 +108,18 @@
     <div class="container">
         <!-- Header Section -->
         <header>
-            <nav>
-                <a href="#home">Home</a>
-                <a href="#about">About Me</a>
-                <a href="#reads">Reads</a>
-                <a href="#hobbies">Hobbies</a>
-                <a href="#etc">Etc.</a>
-            </nav>
+            <h1>Welcome to Lulu's Digital Footprint</h1>
+            <p>Here you can learn more about me, my interests, and the things I enjoy doing.</p>
         </header>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#reads">Reads</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#etc">Etc.</a>
+        </nav>
 
         <!-- Main Content Section -->
         <div class="content">
